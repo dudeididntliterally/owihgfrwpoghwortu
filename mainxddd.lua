@@ -1,7 +1,7 @@
 _G.disc = true
 while _G.disc == true do
 wait()
-for i, v in pairs(game:GetService("Players"):Children()) do
+for i, v in pairs(game:GetService("Players"):GetChildren()) do
 local args = {
     [1] = v
 }
